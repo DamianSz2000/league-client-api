@@ -22,7 +22,7 @@ import java.io.IOException;
 
 public class Session extends StringTokenSupplier implements IAuthentication {
     private final UserInformation userInformation;
-    private final Platform platform;
+    public final Platform platform;
     private final String url;
 
     public Session(UserInformation userInformation, Platform platform, String url) {
